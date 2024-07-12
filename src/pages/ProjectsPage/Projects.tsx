@@ -4,11 +4,12 @@ import Card from '../../components/Card/Card';
 import { AnimatedBackground } from '../../components/AnimatedBackground/AnimatedBackground';
 import avatarImage from '../../assets/images/Captura de tela de 2024-07-05 20-23-01.png';
 import avatarImage1 from '../../assets/images/avatar.jpg'; 
+import avatarImage2 from '../../assets/images/WhatsApp_Image_2024-07-12_at_16.03.16-removebg-preview(1).png'; 
 
 import StyledButton from "../../components/StyledButton/StyledButton";
 
 const Projects: React.FC = () => {
-    const [language, setLanguage] = useState('en'); // Estado para alternar entre os idiomas
+    const [language, setLanguage] = useState('en'); 
 
     const projects = [
         { 
@@ -30,7 +31,7 @@ const Projects: React.FC = () => {
             title: "Project 2", 
             description_pt: "Descrição para Projeto 2 - Este projeto focou em criar um ambiente de aprendizado colaborativo para desenvolvedores compartilharem suas experiências e insights.",
             description_en: "Description for Project 2 - This project focused on creating a collaborative learning environment for developers to share their experiences and insights.", 
-            image: avatarImage 
+            image: avatarImage2 
         },
         { 
             id: 2, 

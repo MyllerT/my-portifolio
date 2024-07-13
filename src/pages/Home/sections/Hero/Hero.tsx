@@ -1,5 +1,5 @@
 import { Box, Container, Grid, Typography, styled } from "@mui/material"
-import Avatar from "../../../../assets/images/WhatsApp_Image_2024-07-12_at_16.03.16-removebg-preview(1).png"
+import Avatar from "../../../../assets/images/myller.png"
 import DownloadIcon from '@mui/icons-material/Download';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
